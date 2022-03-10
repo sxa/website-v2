@@ -93,22 +93,23 @@ As a further more complex example, the following repository shows a release file
 
 .Structured Repository Layout
 ====
-[source]
+[source, tre]
 ----
-/index.json
-/index.json.sha256.sign
-
-/8/index.json
-/8/index.json.sha256.sign
-/8/jdk8u312_b07.json
-/8/jdk8u312_b07.json.sha256.sign
-
-/17/index.json
-/17/index.json.sha256.sign
-/17/jdk_17_0_1_12.json
-/17/jdk_17_0_1_12.json.sha256.sign
-/17/jdk_17_0_2_8.json
-/17/jdk_17_0_2_8.json.sha256.sign
+.
+├── 17
+│   ├── index.json
+│   ├── index.json.sha256.sign
+│   ├── jdk_17_0_1_12.json
+│   ├── jdk_17_0_1_12.json.sha256.sign
+│   ├── jdk_17_0_2_8.json
+│   └── jdk_17_0_2_8.json.sha256.sign
+├── 8
+│   ├── index.json
+│   ├── index.json.sha256.sign
+│   ├── jdk8u312_b07.json
+│   └── jdk8u312_b07.json.sha256.sign
+├── index.json
+└── index.json.sha256.sign
 ----
 ====
 
