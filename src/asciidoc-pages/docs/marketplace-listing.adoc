@@ -93,7 +93,7 @@ As a further more complex example, the following repository shows a release file
 
 .Structured Repository Layout
 ====
-[source, tre]
+[source, tree]
 ----
 .
 ├── 17
