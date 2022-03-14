@@ -178,7 +178,6 @@ to help produce product listing data in the correct format.
           },
           "timestamp": "2021-07-29T19:22:46Z",
           "scm_ref": "jdk8u302-b08",
-          "project": "jdk",
           "distribution": "temurin"
         },
         {
@@ -194,7 +193,6 @@ to help produce product listing data in the correct format.
           },
           "timestamp": "2021-07-29T19:22:53Z",
           "scm_ref": "jdk8u302-b08",
-          "project": "jdk",
           "distribution": "temurin"
         }
       ],
