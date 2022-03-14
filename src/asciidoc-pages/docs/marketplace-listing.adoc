@@ -79,6 +79,7 @@ The simplest `index.json` file only contains a reference to a single `releases.j
 
 [source, json]
 {
+  "schema_version": "1.0.0",
   "releases": [
     "example.json"
   ]
@@ -117,20 +118,20 @@ In this repository the root `/index.json` would contain
 
 [source, json]
 {
+  "schema_version": "1.0.0",
   "indexes": [
     "8/index.json",
     "17/index.json"
   ],
-  "releases": [
-  ]
+  "releases": []
 }
 
 and the `17/index.json` would contain
 
 [source, json]
 {
-  "indexes": [
-  ],
+  "schema_version": "1.0.0",
+  "indexes": [],
   "releases": [
     "jdk_17_0_1_12.json",
     "jdk_17_0_2_8.json"
@@ -174,11 +175,13 @@ to help produce product listing data in the correct format.
             "name": "OpenJDK8U-jre_x64_linux_hotspot_8u302b08.tar.gz",
             "link": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jre_x64_linux_hotspot_8u302b08.tar.gz",
             "sha265sum": "eb860e0656d7fd50437c703ed8f2f68dc6239fcdd8fa8037295570f298994850",
-            "sha256sum_link": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jre_x64_linux_hotspot_8u302b08.tar.gz.sha256.txt"
+            "sha256sum_link": "// optional link to checksum file"
           },
           "timestamp": "2021-07-29T19:22:46Z",
           "scm_ref": "jdk8u302-b08",
-          "distribution": "temurin"
+          "distribution": "temurin",
+          "aqavit_results_link": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz.aqavit.zip",
+          "tck_affidavit_link": "https://adoptium.net/tck_affidavit"
         },
         {
           "os": "linux",
@@ -189,11 +192,13 @@ to help produce product listing data in the correct format.
             "name": "OpenJDK8U-jdk_x64_linux_hotspot_8u302b08.tar.gz",
             "link": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u302b08.tar.gz",
             "sha265sum": "cc13f274becf9dd5517b6be583632819dfd4dd81e524b5c1b4f406bdaf0e063a",
-            "sha256sum_link": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u302b08.tar.gz.sha256.txt"
+            "sha256sum_link": "// optional link to checksum file"
           },
           "timestamp": "2021-07-29T19:22:53Z",
           "scm_ref": "jdk8u302-b08",
-          "distribution": "temurin"
+          "distribution": "temurin",
+          "aqavit_results_link": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz.aqavit.zip",
+          "tck_affidavit_link": "https://adoptium.net/tck_affidavit"
         }
       ],
       "vendor": "adoptium",
@@ -206,9 +211,7 @@ to help produce product listing data in the correct format.
         "build": 8,
         "optional": null,
         "openjdk_version": "1.8.0_302-b08"
-      },
-      "aqavit_results_link": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz.aqavit.zip",
-      "tck_affidavit_link": "https://adoptium.net/tck_affidavit.html"
+      }
     }
   ]
 }
