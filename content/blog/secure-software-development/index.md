@@ -1,6 +1,6 @@
 ---
 title: Secure Software Development Framework (SSDF) at Adoptium
-date: "2022-11-28T12:00:00+00:00"
+date: "2022-11-28T15:00:00+00:00"
 author: sxa
 description: An overview of the SSDF framework and what we are doing to work towards implementing it
 tags:
