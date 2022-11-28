@@ -65,7 +65,7 @@ we have a good baseline of data about what has been used to produce each of
 our builds across all of our platforms.  The JSON-formatted SBOMs can be
 obtained along with the Eclipse Temurin builds.
 
-Additionally, we have been working towards having fully reproducable builds
+Additionally, we have been working towards having fully reproducible builds
 which are binary identical and can be rebuilt by others if desired in order
 to prove that we have built what we say we have, in the way we said we did.
 That way, a cautious user could rebuild what we have to verify that it is
