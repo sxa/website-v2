@@ -10,7 +10,7 @@ tags:
 
 ## Introduction to the framework
 
-The Secure Software Development Framework (Henceforth SSDF) is
+The Secure Software Development Framework (SSDF) is
 [special publication 800-218](https://csrc.nist.gov/Projects/ssdf)
 from the National Institute of Standards and Technology agency of the US
 Department of Commerce's Computer Security Resource Center division.  It is
