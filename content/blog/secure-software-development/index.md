@@ -56,7 +56,7 @@ terms of the points in the specifications.  Our process will be:
 ## What have you done so far?
 
 One of the important things in the secure software specification relate to
-Software Bill Of Materials (Henceforth SBOMs) and we have started producing
+Software Bill Of Materials (SBOMs) and we have started producing
 SBOMs along with the Temurin builds using [CycloneDX](https://cyclonedx.org)
 as part of our regular build process.  While the full content of it is still
 a work in progress and will be enhanced over time - and you can have your
