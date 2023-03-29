@@ -65,11 +65,11 @@ Sep 2023
 | Expected Sep 2029
 
 | Java 20
+| Mar 2023
+| 25 Mar 2023 +
+[.small]#jdk-20+36#
 | Expected +
-21 Mar 2023
-| Not available
-| Expected +
-21 Mar 2023
+18 Apr 2023
 | Expected Sep 2023
 
 | Java 19
