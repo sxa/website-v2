@@ -48,8 +48,8 @@ icon:check[] - Supported, icon:docker[] - Docker image available, icon:times[] -
 | Ubuntu 18.04 | icon:check[] | icon:check[] | icon:check[] | icon:check[]
 
 5+h| Linux (PowerPC 64-bit Little Endian) footnote:glibc217[]
-| RHEL 9.x | icon:check[] | icon:check[] | icon:check[] | icon:check[] icon:docker[]
-| RHEL 8.x | icon:check[] | icon:check[] | icon:check[] | icon:check[]
+| RHEL / UBI 9.x | icon:check[] | icon:check[] | icon:check[] | icon:check[] icon:docker[]
+| RHEL / UBI 8.x | icon:check[] | icon:check[] | icon:check[] | icon:check[]
 | RHEL / CentOS 7.x | icon:check[] icon:docker[] | icon:check[] icon:docker[] | icon:check[] icon:docker[] | icon:check[]
 | Ubuntu 22.04 | icon:check[] icon:docker[] | icon:check[] icon:docker[] | icon:check[] icon:docker[] | icon:check[] icon:docker[]
 | Ubuntu 20.04 | icon:check[] icon:docker[] | icon:check[] icon:docker[] | icon:check[] icon:docker[] | icon:check[] icon:docker[]
