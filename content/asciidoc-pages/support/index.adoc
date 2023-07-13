@@ -56,12 +56,13 @@ https://calendar.google.com/calendar/embed?src=c_56d7263c0ceda87a1678f6144426f23
 of our releases.  We always prioritise the most popular platforms which
 will typically appear within a few days of these dates.
 
-[width="100%",cols="5*",options="header",]
+[width="100%",cols="6*",options="header",]
 |===
 
-| Java Version  | First Availability | Latest Release | Next Release Due | End of Availability ^[1]^
+| Java Version  | Upstream lead maintainer | First Availability | Latest Release | Next Release Due | End of Availability ^[1]^
 
 | Java 21 (LTS)
+|
 | Expected +
 Sep 2023
 | Not available
@@ -70,6 +71,7 @@ Sep 2023
 | Expected Sep 2029
 
 | Java 20
+| https://wiki.openjdk.org/display/JDKUpdates/JDK+20u[Oracle]
 | Mar 2023
 | 18 Apr 2023 +
 [.small]#jdk-20.0.1+9#
@@ -78,6 +80,7 @@ Sep 2023
 | Expected Sep 2023
 
 | Java 19
+|
 | Sep 2022
 | 17 Jan 2023 +
 [.small]#jdk-19.0.2+7#
@@ -85,6 +88,7 @@ Sep 2023
 | Mar 2023
 
 | Java 18
+|
 | Mar 2022
 | 28 Aug 2022 +
 [.small]#jdk-18.0.2.1+1#
@@ -92,6 +96,8 @@ Sep 2023
 | Sep 2022
 
 | Java 17 (LTS)
+| https://wiki.openjdk.org/display/JDKUpdates/JDK+17u[SAP] +
+[.small]#Goetz Lindenmaier#
 | Sep 2021
 | 18 Apr 2023 +
 [.small]#jdk-17.0.7+7#
@@ -100,6 +106,8 @@ Sep 2023
 | At least Oct 2027
 
 | Java 11 (LTS)
+| https://wiki.openjdk.org/display/JDKUpdates/JDK11u[Red Hat] +
+[.small]#Andrew Haley#
 | Sep 2018
 | 18 Apr 2023 +
 [.small]#jdk-11.0.19+7#
@@ -108,6 +116,8 @@ Sep 2023
 | At least Oct 2024
 
 | Java 8 (LTS)
+| https://wiki.openjdk.org/display/jdk8u[Red Hat] +
+[.small]#Andrew Haley#
 | Mar 2014
 | 18 Apr 2023 +
 [.small]#jdk8u372-b07#
