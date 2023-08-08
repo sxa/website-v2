@@ -29,12 +29,14 @@ exactly which tagged level you have discovered any problems with.
 You can download the latest ea build from the API by retrieving this (replace
 linux and x64 with the platform you are interested in:
 
-```
+```text
 https://api.adoptium.net/v3/binary/latest/21/ea/linux/x64/jdk/hotspot/normal/adoptium
 ```
+
 If you want to download a specific EA build instead of the latest, you can
 do so using a URL such as:
-```
+
+```text
 https://api.adoptium.net/v3/binary/version/jdk-21+32-ea-beta/linux/aarch64/jdk/hotspot/normal/adoptium
 ```
 
@@ -42,19 +44,18 @@ The output from java -version for these builds will look like this (but it
 may change in the future) The `-ea` indicates that it is build from the
 early access tag in GitHub:
 
-```
+```output
 openjdk version "21-beta" 2023-09-19
 OpenJDK Runtime Environment Temurin-21+34-202308031254 (build 21-beta+34-ea)
 OpenJDK 64-Bit Server VM Temurin-21+34-202308031254 (build 21-beta+34-ea, mixed mode, sharing)
 ```
-
 
 ## Using the ea builds with GitHub actions
 
 If you want to pull a Temurin JDK21 ea build in a GitHub action, you can use
 the following:
 
-```
+```yaml
      - uses: actions/setup-java@v3
         with:
           java-version: 21-ea
