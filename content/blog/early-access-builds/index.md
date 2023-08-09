@@ -11,20 +11,22 @@ versions of openjdk (Currently 8, 11, 17 and 20) Temurin also publishes "nightly
 development builds of all of those streams as well as the upcoming release (JDK21
 at the moment) as "nightly" or "early access" builds. You can get these from
 https://adoptium.net/temurin/nightly or from the API. Note that while these are
-not inteded for production use they can be used to test a build containing any
-new fixes which have been put into openjdk.
+not intended for production use they can be used to test a build containing any
+new fixes which have been put into openjdk along with any new features that
+will be coming in the next release.
 
-## Early access (ea) builds of JDK21
+## Early access (ea) tagged builds of JDK21
 
-We have recently changed the way we do the regular builds of JDK21.  Instead
-of producing regular builds of the latest development code, we are building
-the early access tags when they come out.  This is consistent with what
-OpenJDK does with the builds at https://jdk.java.net/21/ but on a wider
-range of platforms.  Similar to the nightly builds mentioned in the
-introduction, these are not for production use but may be useful for testing
-new features as they go into the JDK21 codebase.  By using the specific
-early access tags you can also report issues upstream more easily by knowing
-exactly which tagged level you have discovered any problems with.
+We have recently changed the way we do the regular nightly builds of JDK21. 
+Instead of producing regular builds of the latest development code, we are
+building explicitly from the early access tags when they come out.  This is
+consistent with what OpenJDK does with the builds at
+https://jdk.java.net/21/ but on a wider range of platforms.  Similar to the
+nightly builds mentioned in the introduction, these are not for production
+use but may be useful for testing new features as they go into the JDK21
+codebase.  By using the specific early access tags you can also report
+issues upstream more easily by knowing exactly which tagged level you have
+discovered any problems with.
 
 You can download the latest ea build from the API by retrieving this (replace
 linux and x64 with the platform you are interested in:
@@ -66,7 +68,8 @@ the following:
 
 We are looking at whether it makes sense to build ea levels instead of
 regular nightly head builds of the other supported codebases. If you have a
-view on whether that would be useful please let us know via slack.
+view on whether that would be useful please let us know by commenting in
+[this issue](https://github.com/adoptium/temurin-build/issues/3450).
 
 For more information on GPG signing and the impliations of the different steps in the process above, see the
 [integrity checking article from Eclipse](https://wiki.eclipse.org/Platform-releng/How_to_check_integrity_of_downloads#Example_of_using_GPG_with_the_checksums_files).
