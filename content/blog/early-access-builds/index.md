@@ -69,4 +69,4 @@ regular nightly head builds of the other supported codebases. If you have a
 view on whether that would be useful please let us know via slack.
 
 For more information on GPG signing and the impliations of the different steps in the process above, see the
-[integrity checking article from Eclipse](https://wiki.eclipse.org/Platform-releng/How_to_check_integrity_of_downloads#Example_of_using_GPG_with_the_checksums_files)
+[integrity checking article from Eclipse](https://wiki.eclipse.org/Platform-releng/How_to_check_integrity_of_downloads#Example_of_using_GPG_with_the_checksums_files).
