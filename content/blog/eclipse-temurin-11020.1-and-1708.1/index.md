@@ -14,7 +14,7 @@ Adoptium is happy to announce the immediate availability of Eclipse Temurin 11.0
 
 https://bugs.openjdk.org/browse/JDK-8313765
 
-As an alternative workaround if you see this problem you can set the
+As an alternative workaround if you experience this problem you can set the
 following system property:
 
 ```sh
