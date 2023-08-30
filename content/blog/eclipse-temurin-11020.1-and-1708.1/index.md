@@ -21,4 +21,4 @@ following system property:
  -Djdk.util.zip.disableZip64ExtraFieldValidation=true
 ```
 
-however the recommended option is to update to the new version.
+However the recommended option is to update to the new version.
