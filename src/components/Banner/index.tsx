@@ -11,7 +11,7 @@ const Banner = () => {
      <strong className='p-1'>25th of September 2023:</strong>
          We are awaiting access to the new Java 21's specification tests
          before formally releasing Temurin 21. In the meantime
-         <a href="https://adoptium.net/blog/2023/08/early-access-builds/">early
+         <a href="https://adoptium.net/blog/2023/08/early-access-builds/"> early
          access builds</a> (untested and not for production use) can be downloaded
          from <a href="https://adoptium.net/temurin/nightly/?version=21">here</a> or
          from <a href="http://api.adoptium.net/">our API</a>.
