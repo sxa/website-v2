@@ -12,7 +12,7 @@ tags:
 
 Supply-chain Levels for Software Artifacts, or [SLSA](https://slsa.dev), is a framework with individual levels that software
 producers can work towards to make their software more secure, and consumers
-can make decisions based on the software package’s security posture.  The
+can use to make decisions based on the software package’s security posture.  The
 Adoptium project has worked closely with the Eclipse Foundation security
 team to work towards making the Eclipse Temurin compliant with the SLSA
 specification's build requirements.
