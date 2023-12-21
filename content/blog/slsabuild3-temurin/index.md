@@ -2,7 +2,7 @@
 title: SLSA build level 3 compliance on Linux and macos for Eclipse Temurin
 date: "2023-12-19T17:00:00+00:00"
 author: sxa
-description: Eclipse Temurin by Adoptium is compliant with build level 3 of the SLSA 1.0 secure development framework on Linux.
+description: Eclipse Temurin by Adoptium is compliant with build level 3 of the SLSA 1.0 secure development framework on Linux and macOS.
 tags:
   - temurin
   - security
