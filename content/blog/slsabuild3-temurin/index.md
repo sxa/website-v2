@@ -27,7 +27,7 @@ of which the build track is the only one currently published.  If you're not
 familiar with the changes, check out [this lightning
 talk](https://youtu.be/uLXzyutZEmQ?si=XjD9H6uO_GEjJVBG) from one of my
 colleagues.  We have been able to build on our work done previously to meet
-build level 3 for Linux and MacOS for Eclipse Temurin's build and
+build level 3 for Linux and macOS for Eclipse Temurin's build and
 distribution.
 
 ## What have you done since declaring SLSA level 2
