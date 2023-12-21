@@ -79,8 +79,8 @@ as we add more details into the SBoM. Note that even now.
 
 ### Prevent secret material used to sign the provenance from being accessible to user-defined build steps
 
-The signing jobs that we use are all contained within the jenkins CI system
-which we use. These are independent of the build jobs and run as a
+The signing jobs that we use are all contained within our Jenkins CI system.
+These are independent of the build jobs and run as a
 subsequent step to avoid the credentials ever being available to the build
 jobs.
 
