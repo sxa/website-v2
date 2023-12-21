@@ -44,8 +44,8 @@ build is run and the results saved, and then we shut down the container.
 This way there can be no influencing from caching or from one run impacting
 a subsequent one.
 
-We have implemented a comparable system on macos by using Orka from
-Macstadium which allows us to dynamically spin up virtual machines for each
+We have implemented a comparable system on macOS by using
+[MacStadium's Orka](https://www.macstadium.com/orka) which allows us to dynamically spin up virtual machines for each
 build run to give us a comparable level of isolation.
 
 For other Operating Systems that we build on - Windows, AIX and Solaris - we
