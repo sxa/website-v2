@@ -21,7 +21,7 @@ specification's build requirements.
 
 [At the end](https://adoptium.net/blog/2022/11/slsa2-temurin/)
 [of 2022](https://newsroom.eclipse.org/eclipse-newsletter/2022/december/eclipse-temurin-slsa-level-two-compliant)
-we claimed compliance with level 2 of the SLSA v0.1 specification.  Earlier
+we achieved compliance with level 2 of the SLSA v0.1 specification.  Earlier
 this year version 1.0 was released and it was split into multiple "tracks",
 of which the build track is the only one currently published.  If you're not
 familiar with the changes, check out [this lightning
