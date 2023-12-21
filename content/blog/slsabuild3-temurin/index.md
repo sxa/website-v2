@@ -48,7 +48,7 @@ We have implemented a comparable system on macOS by using
 [MacStadium's Orka](https://www.macstadium.com/orka) which allows us to dynamically spin up virtual machines for each
 build run to give us a comparable level of isolation.
 
-For other Operating Systems that we build on - Windows, AIX and Solaris - we
+For other operating systems that we build on - Windows, AIX and Solaris - we
 are not currently set up to do something equivalent which is why we are not
 claiming SLSA build level 3 for those builds.
 
