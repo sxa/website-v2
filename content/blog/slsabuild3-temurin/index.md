@@ -91,7 +91,7 @@ look to keep up to date as updates to the specification are made available.
 We expect a "level 4" on the build track, and also other tracks to cover
 source code.
 
-We are also continuing to work on our reproducible builds which gives an
+We are also continuing to work on our [reproducible builds](https://adoptium.net/blog/2023/09/Reproducible-Comparison-Builds/) which gives an
 extra layer of confidence that any customers of Temurin are able to rebuild
 from source code in order to independently verify that nothing in our build
 systems have been tampered with or introduced any unexpected code.  Anyone
