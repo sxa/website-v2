@@ -30,7 +30,7 @@ colleagues.  We have been able to build on our work done previously to meet
 build level 3 for Linux and macOS for Eclipse Temurin's build and
 distribution.
 
-## What have you done since declaring SLSA level 2
+## What have you done since declaring SLSA level 2?
 
 We have built on top of the work covered in the earlier blog to meet the
 requirements of SLSA build level 3. The additional requirements were as
