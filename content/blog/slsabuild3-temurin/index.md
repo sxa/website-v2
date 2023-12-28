@@ -77,7 +77,19 @@ directory and test various aspects of the built JDK If these checks fail
 then these will be trapped early on.
 
 We expect that all of these checks will be enhanced over time, particularly
-as we add more details into the SBOM.
+as we add more details into the SBoM.
+
+The current SBoM can be downloaded via the adoptium API.  If you are already
+familiar with the API for downloading JDKs, then replacing `jdk` with `sbom`
+in the URL will let you download the SBoM. For example, this will download
+the latest GA SBoM for Temurin 21 on Linux/x64:
+
+- https://api.adoptopenjdk.net/v3/binary/latest/21/ga/linux/x64/sbom/hotspot/normal/adoptopenjdk?project=jdk
+
+Note that there is an enhanced version of the SBoM which includes more
+details on the artifacts that is already in the nightly builds and will be
+included for the January 2024 GA releases.  We will not (and should not)
+regenerate the SBoM for older releases.
 
 ### Prevent secret material used to sign the provenance from being accessible to user-defined build steps
 
