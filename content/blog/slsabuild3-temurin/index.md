@@ -75,7 +75,7 @@ directory and test various aspects of the built JDK If these checks fail
 then these will be trapped early on.
 
 We expect that all of these checks will be enhanced over time, particularly
-as we add more details into the SBoM. Note that even now.
+as we add more details into the SBOM.
 
 ### Prevent secret material used to sign the provenance from being accessible to user-defined build steps
 
