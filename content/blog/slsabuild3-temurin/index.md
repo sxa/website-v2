@@ -64,7 +64,9 @@ running some basic checks on the downloads.  It also calls
 validateSBOMcontent.sh to check the SBoM contents to make sure the
 dependencies, including compilers, listed in there match expectations. The
 SBoM contents now also includes the SHA256 checksums of all of the build
-artifacts.
+artifacts. There is information on programatically verifying the GPG
+signatures in
+[an earlier blog](https://adoptium.net/blog/2022/07/gpg-signed-releases/)
 
 In addition to all these checks we also verify after each build that the
 build code has the features enabled that it should have. This is done using
