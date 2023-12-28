@@ -17,8 +17,6 @@ Adoptium project has worked closely with the Eclipse Foundation security
 team to work towards making the Eclipse Temurin compliant with the SLSA
 specification's build requirements.
 
-
-
 [At the end](https://adoptium.net/blog/2022/11/slsa2-temurin/)
 [of 2022](https://newsroom.eclipse.org/eclipse-newsletter/2022/december/eclipse-temurin-slsa-level-two-compliant)
 we achieved compliance with level 2 of the SLSA v0.1 specification.  Earlier
@@ -111,4 +109,3 @@ from source code in order to independently verify that nothing in our build
 systems have been tampered with or introduced any unexpected code.  Anyone
 (yes, even you!) can use our fully open-source setup and build scripts to
 rebuild the Temurin JDK, and we encourage you to give it a try!
-
