@@ -62,7 +62,8 @@ will typically appear within a few days of these dates.
 | Java Version  | Upstream Lead | First Availability | Latest Release | Next Release Due | End of Availability ^[1]^
 
 | Java 21 (LTS)
-|
+| [.small]#https://wiki.openjdk.org/display/JDKUpdates/JDK+21u[Severin Gehwolf]# +
+(Red Hat)
 | Expected +
 Sep 2023
 | Not available
@@ -96,7 +97,8 @@ Sep 2023
 | Sep 2022
 
 | Java 17 (LTS)
-| https://wiki.openjdk.org/display/JDKUpdates/JDK+17u[SAP]
+| [.small]#https://wiki.openjdk.org/display/JDKUpdates/JDK+17u[Goetz Lindermaier]# +
+(SAP)
 | Sep 2021
 | 18 Apr 2023 +
 [.small]#jdk-17.0.7+7#
@@ -105,7 +107,8 @@ Sep 2023
 | At least Oct 2027
 
 | Java 11 (LTS)
-| https://wiki.openjdk.org/display/JDKUpdates/JDK11u[Red Hat]
+| [.small]#https://wiki.openjdk.org/display/JDKUpdates/JDK11u[Andrew Haley]#  +
+(Red Hat)
 | Sep 2018
 | 18 Apr 2023 +
 [.small]#jdk-11.0.19+7#
@@ -114,7 +117,8 @@ Sep 2023
 | At least Oct 2024
 
 | Java 8 (LTS)
-| https://wiki.openjdk.org/display/jdk8u[Red Hat]
+| [.small]#https://wiki.openjdk.org/display/jdk8u[Andrew Haley]#  +
+(Red Hat)
 | Mar 2014
 | 18 Apr 2023 +
 [.small]#jdk8u372-b07#
