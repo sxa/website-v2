@@ -30,7 +30,7 @@ distribution.
 
 ## What have you done since declaring SLSA level 2?
 
-We have built on top of the work covered in the earlier blog to meet the
+We have built on top of the work covered in [the earlier blog](https://adoptium.net/blog/2022/11/slsa2-temurin/) to meet the
 requirements of SLSA build level 3. The additional requirements were as
 follows:
 
