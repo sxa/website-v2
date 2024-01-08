@@ -87,8 +87,8 @@ the latest GA SBoM for Temurin 21 on Linux/x64:
 
 Note that there is an enhanced version of the SBoM which includes more
 details on the artifacts that is already in the nightly builds and will be
-included for the January 2024 GA releases.  We will not (and should not)
-regenerate the SBoM for older releases.
+included for the January 2024 GA releases and beyond.  We will not (and
+should not) regenerate the SBoM for older releases.
 
 ### Prevent secret material used to sign the provenance from being accessible to user-defined build steps
 
