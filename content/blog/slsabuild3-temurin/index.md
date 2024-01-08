@@ -30,7 +30,7 @@ distribution.
 
 ## What have you done since declaring SLSA level 2?
 
-We have built on top of the work covered in [the earlier blog](https://adoptium.net/blog/2022/11/slsa2-temurin/) to meet the
+We have built on top of the work covered in the earlier blog to meet the
 requirements of SLSA build level 3. The additional requirements were as
 follows:
 
@@ -52,19 +52,19 @@ claiming SLSA build level 3 for those builds.
 
 ### Verifying provenance artifacts
 
-We have introduced a build verification step which can take the SBoM
-produced as part of the build output and verify its contents as far as is
-practical.  This will do some checks to ensure that the fields are valid and
-match expectations about how the product has been built.  This job is stored
-in https://github.com/adoptium/temurin-build/blob/master/tooling as
+We have introduced a build verification step which can take the Software
+Bill of Materials (SBoM) produced as part of the build output and verify its
+contents as far as is practical.  This will do some checks to ensure that
+the fields are valid and match expectations about how the product has been
+built.  This job is stored in
+https://github.com/adoptium/temurin-build/blob/master/tooling as
 release_download_test.sh which performs SHA and GPG checks as well as
 running some basic checks on the downloads.  It also calls
 validateSBOMcontent.sh to check the SBoM contents to make sure the
-dependencies, including compilers, listed in there match expectations. The
+dependencies, including compilers, listed in there match expectations.  The
 SBoM contents now also includes the SHA256 checksums of all of the build
-artifacts. There is information on programatically verifying the GPG
-signatures in
-[an earlier blog](https://adoptium.net/blog/2022/07/gpg-signed-releases/)
+artifacts.  There is information on programatically verifying the GPG
+signatures in [an earlier blog](https://adoptium.net/blog/2022/07/gpg-signed-releases/)
 
 In addition to all these checks we also verify after each build that the
 build code has the features enabled that it should have. This is done using
