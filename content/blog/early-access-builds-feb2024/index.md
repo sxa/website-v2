@@ -99,12 +99,12 @@ using similar queries to those referenced earlier it can be downloaded from:
 
 ## Why am I not seeing early access builds for the latest release?
 
-There is one caveat for producing early access builds using this procedure. 
+There is one caveat for producing early access builds using this procedure.
 The process relies on the party maintaining the upstream version to perform
 the tagging in public.  If those tags aren't visible in public, we have no
 way to build from an invisible tag.  This usually happens for the time
 period when new major JDK versions get released and subsequent quarterly
-security updates for those releases are being handled (usually by Oracle). 
+security updates for those releases are being handled (usually by Oracle).
 For example between JDK `22` GA, `22.0.1` and `22.0.2` releases.  There are
 no public tags available for early access tags `jdk-22.0.1+1`,
 `jdk-22.0.1+2` and so on.  Should processes change some time in the future
