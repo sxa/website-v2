@@ -35,8 +35,8 @@ reports and reproductions.
 
 ## How do I get the early access builds?
 
-You can download the tagged early access builds from [the
-website](https://adoptium.net/temurin/nightly/) or the API
+You can obtain the tagged early access builds from [the
+download page](https://adoptium.net/temurin/nightly/) or the API
 using a URL such as the following, changing the operating system and
 architecture for your needs.  Note that if you are accessing these URLs
 using curl you will need to add the -L option to dereference the API’s
@@ -52,7 +52,7 @@ from the previous week:
 - https://api.adoptium.net/v3/binary/version/jdk-21.0.3+2-ea-beta/linux/aarch64/jdk/hotspot/normal/adoptium
 
 Also while it is not the recommended way to retrieve them you can also find
-the releases named with an ea-beta suffix directly on the github releases
+the releases named with an ea-beta suffix directly on the GitHub releases
 pages such as
 
 - https://github.com/adoptium/temurin21-binaries/releases?q=ea-beta&expanded=true
@@ -78,10 +78,10 @@ upstream openjdk repository will typically give the same output:
 
 - https://github.com/openjdk/jdk21u/compare/jdk-21.0.3+2...jdk-21.0.3+3
 
-From the command line if you have a clone of our repository you can use
+From the command-line if you have a clone of our repository you can use
 these comments to get the list of commits and or the full source code diff:
 
-```
+```sh
 git log jdk-21.0.3+2_adopt..jdk-21.0.3+3_adopt
 git diff jdk-21.0.3+2_adopt..jdk-21.0.3+3_adopt
 ```
@@ -99,7 +99,7 @@ to those referenced earlier it can be downloaded from:
 
 ## Why am I not seeing early access builds for the latest release?
 
-There is one caveat for producing early access builds using this procedure. 
+There is one caveat for producing early access builds using this procedure.
 The process relies on the party maintaining the upstream version to perform
 the tagging in public.  If those tags aren't visible in public, we have no
 way to build from an invisible tag.  This usually happens for the time
@@ -115,7 +115,6 @@ regularly from the head of the repository.  In these cases if you need to
 know what is in each version you can determine which git SHA we built from
 using corresponding SBoM artefact that can be downloaded from the API by
 replacing “/jdk/” with “/sbom/” in the above URL.  For example:
-
 
 - https://api.adoptium.net/v3/binary/version/jdk-22+36-ea-beta/linux/aarch64/sbom/hotspot/normal/eclipse?project=jdk
 
