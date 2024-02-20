@@ -92,8 +92,8 @@ Since we are now producing builds explicitly from the tags, this means that
 when a build is declared as a release candidate for an upcoming release, you
 can download a Temurin early access build corresponding to that version on
 each of our platforms.  At the time of writing jdk-22+36 has been declared
-release candidate 1 for the upcoming JDK22 release so using similar queries
-to those referenced earlier it can be downloaded from:
+release candidate 2 (jdk-22+35 was RC1) for the upcoming JDK22 release so
+using similar queries to those referenced earlier it can be downloaded from:
 
 - https://api.adoptium.net/v3/binary/version/jdk-22+36-ea-beta/linux/aarch64/jdk/hotspot/normal/adoptium
 
