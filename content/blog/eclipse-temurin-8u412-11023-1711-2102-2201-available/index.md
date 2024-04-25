@@ -27,6 +27,20 @@ The following table summarizes security vulnerabilities fixed in this release cy
 
 Users should follow the [Adoptium policy for reporting vulnerability concerns](https://github.com/adoptium/adoptium/security/policy#security-policies-and-procedures) with this release.
 
+## Fixes and Updates
+
+This release contains the following fixes and updates.
+
+* [Temurin 8u412 release notes](https://adoptium.net/temurin/release-notes/?version=jdk8u412-b08), including [fixes in OpenJDK 8u412](https://bugs.openjdk.org/issues/?jql=project+%3D+JDK+AND+fixVersion+%3D+openjdk8u412)
+
+* [Temurin 11.0.23 release notes](https://adoptium.net/temurin/release-notes/?version=jdk-11.0.23+9), including [fixes in OpenJDK 11.0.22](https://bugs.openjdk.org/issues/?jql=project+%3D+JDK+AND+fixVersion+%3D+11.0.23)
+
+* [Temurin 17.0.11 release notes](https://adoptium.net/temurin/release-notes/?version=jdk-17.0.11+9), including [fixes in OpenJDK 17.0.10](https://bugs.openjdk.org/issues/?jql=project+%3D+JDK+AND+fixVersion+%3D+17.0.11)
+
+* [Temurin 21.0.3 release notes](https://adoptium.net/temurin/release-notes/?version=jdk-21.0.3+9), including [fixes in OpenJDK 21.0.3](https://bugs.openjdk.org/issues/?jql=project+%3D+JDK+AND+fixVersion+%3D+21.0.3)
+
+* [Temurin 22.0.1 release notes](https://adoptium.net/temurin/release-notes/?version=jdk-22.0.1+8), including [fixes in OpenJDK 22.0.1](https://bugs.openjdk.org/issues/?jql=project+%3D+JDK+AND+fixVersion+%3D+22.0.1)
+
 ## New and Noteworthy
 
 ### JDK21 and above are built using a Devkit
