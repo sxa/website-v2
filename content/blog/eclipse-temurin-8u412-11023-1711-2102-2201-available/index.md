@@ -2,7 +2,7 @@
 title: Eclipse Temurin 8u412, 11.0.23, 17.0.11, 21.0.3 and 22.0.1 Available
 date: "2024-04-25"
 author: pmc
-description: Adoptium is happy to announce the immediate availability of Eclipse Temurin 8u412, 11.0.23, 17.0.11 21.0.3 and 22.0.1 - our biggest release set s far. As always, all binaries are thoroughly tested and available free of charge without usage restrictions on a wide range of platforms.
+description: Adoptium is happy to announce the immediate availability of Eclipse Temurin 8u412, 11.0.23, 17.0.11 21.0.3 and 22.0.1 - our biggest release set so far. As always, all binaries are thoroughly tested and available free of charge without usage restrictions on a wide range of platforms.
 tags:
   - temurin
   - announcement
@@ -18,7 +18,7 @@ This is by far our biggest release to date with 54 version/platform combinations
 The following table summarizes security vulnerabilities fixed in this release cycle. The affected Temurin version streams are noted by an 'X' in the table. Each line shows the [Common Vulnerabilities and Exposures (CVE) vulnerability database](https://nvd.nist.gov/vuln) reference and [Common Vulnerability Scoring System (CVSS) v3.1 base score](https://www.first.org/cvss/v3.1/specification-document) provided by the [OpenJDK Vulnerability Group](https://openjdk.org/groups/vulnerability/). Note that defense-in-depth issues are not assigned CVEs.
 
 | CVE Identifier  | Component | CVSS Score | v8 | v11 | v17 | v21 | v22 |
-| :---                                                              | :---                | :----:      |  :----:   | :----:     | :----:     | :----:     |  :----:     | 
+| :---                                                              | :---                | :----:      |  :----:   | :----:     | :----:     | :----:     |  :----:     |
 | [CVE-2024-21094](https://nvd.nist.gov/vuln/detail/CVE-2024-21094) | hotspot/compiler    | Low ([3.7](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21094&vector=AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N&version=3.1&source=Oracle))   |  X    | X      |  X    |   X |   |
 | [CVE-2024-21085](https://nvd.nist.gov/vuln/detail/CVE-2024-21085) | core-libs/java.util | Low ([3.7](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21085&vector=AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L&version=3.1&source=Oracle))   |  X    | X      |       |     |   |
 | [CVE-2024-21011](https://nvd.nist.gov/vuln/detail/CVE-2024-21011) | hotspot/runtime     | Low ([3.7](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21011&vector=AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L&version=3.1&source=Oracle))   |  X    | X      |  X    |   X | X |
@@ -49,7 +49,7 @@ For the first time, Temurin builds of JDK 21 and 22 for Linux (currently excludi
 
 ### Availability of s390x Linux in jdk-22.0.1
 
-For Linux/s390x there was an extra patch that we needed on top of 22.0.1+8 to pass our rigourous testing process. For this reason, the Linux/s390x version of Temurin is 22.0.3.1+1 instead of 22.0.3+8. The fix is [JDK22u PR 137](https://github.com/openjdk/jdk22u/pull/137) from [JBS bug JDK-8329545](https://bugs.openjdk.org/browse/JDK-8329545)
+For Linux/s390x there was an extra patch that we needed on top of 22.0.1+8 to pass our rigourous testing process. For this reason, the Linux/s390x version of Temurin is 22.0.3.1+1 instead of 22.0.3+8. The fix is [JDK22u PR 137](https://github.com/openjdk/jdk22u/pull/137) from [JBS bug JDK-8329545](https://bugs.openjdk.org/browse/JDK-8329545).
 
 ### ppc64 AIX JDK11 and JDK17 now available
 
@@ -59,20 +59,22 @@ Note that JDK22 is not yet available for AIX. This is awaiting a compiler update
 
 ### CA Certifcates updated
 
-This release contains SSL CA certificates changes from March 13th which were updated under [this PR](https://github.com/adoptium/temurin-build/pull/3697#issuecomment-1994007189) 
+This release contains SSL CA certificates changes from March 13th which were updated under [this PR](https://github.com/adoptium/temurin-build/pull/3697#issuecomment-1994007189)
 
 Summary of changes:
 
 Additions:
-- Add D-Trust S/MIME Roots - TBD (CA Program [Bug # 1781510](https://bugzilla.mozilla.org/show_bug.cgi?id=1781510))
-- Add Deutsche Telekom Roots - TBD (CA Program [Bug # 1820592](https://bugzilla.mozilla.org/show_bug.cgi?id=1820592))
+
+* Add D-Trust S/MIME Roots - TBD (CA Program [Bug # 1781510](https://bugzilla.mozilla.org/show_bug.cgi?id=1781510))
+* Add Deutsche Telekom Roots - TBD (CA Program [Bug # 1820592](https://bugzilla.mozilla.org/show_bug.cgi?id=1820592))
 
 Removals:
-- Remove Expired SECOM Root - [Bug #1865450](https://bugzilla.mozilla.org/show_bug.cgi?id=1865450)
+
+* Remove Expired SECOM Root - [Bug #1865450](https://bugzilla.mozilla.org/show_bug.cgi?id=1865450)
 
 ### Refinements to SBOM Contents
 
-We have added a new `components` section to the SBOM which lists more details on the specific versions of packages which were on the build system at the time of building, in order to assist with enabling build reproducibility.
+We have added a new `components` section to the SBOM which lists more details on the specific versions of packages which were on the build machine at the time of building, in order to assist with enabling build reproducibility.
 
 ### dnf/apt installer support for Fedora 40, Ubuntu 24.04 (Noble Numbat) and Debian 13 (Trixie)
 
