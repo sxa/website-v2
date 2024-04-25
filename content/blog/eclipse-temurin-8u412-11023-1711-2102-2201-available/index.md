@@ -15,11 +15,15 @@ This is by far our biggest release to date with 54 version/platform combinations
 
 ## Security Vulnerabilities Resolved
 
-The following table summaries security vulnerabilities fixed in this release cycle. The affected Temurin version streams are noted by an 'X' in the table. Each line shows the [Common Vulnerabilities and Exposures (CVE) vulnerability database](https://nvd.nist.gov/vuln) reference and [Common Vulnerability Scoring System (CVSS) v3.1 base score](https://www.first.org/cvss/v3.1/specification-document) provided by the [OpenJDK Vulnerability Group](https://openjdk.org/groups/vulnerability/). Note that defense-in-depth issues are not assigned CVEs.
+The following table summarizes security vulnerabilities fixed in this release cycle. The affected Temurin version streams are noted by an 'X' in the table. Each line shows the [Common Vulnerabilities and Exposures (CVE) vulnerability database](https://nvd.nist.gov/vuln) reference and [Common Vulnerability Scoring System (CVSS) v3.1 base score](https://www.first.org/cvss/v3.1/specification-document) provided by the [OpenJDK Vulnerability Group](https://openjdk.org/groups/vulnerability/). Note that defense-in-depth issues are not assigned CVEs.
 
-| CVE Identifier  | Component | CVSS Score | v8 | v11 | v17 | v21 | v22
-| :---                                                              | :---                |  :----:      |  :----:   | :----:     | :----:     | :----:     | :----:
-| [CVE-2024-00000](https://nvd.nist.gov/vuln/detail/CVE-2024-00000) | security-libs/javax.xml.crypto    | Reserved (4.7)   |     X     |    X       | X          | X          | X
+| CVE Identifier  | Component | CVSS Score | v8 | v11 | v17 | v21 | v22 |
+| :---                                                              | :---                | :----:      |  :----:   | :----:     | :----:     | :----:     |  :----:     | 
+| [CVE-2024-21094](https://nvd.nist.gov/vuln/detail/CVE-2024-21094) | hotspot/compiler    | Low ([3.7](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21094&vector=AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N&version=3.1&source=Oracle))   |  X    | X      |  X    |   X |   |
+| [CVE-2024-21085](https://nvd.nist.gov/vuln/detail/CVE-2024-21085) | core-libs/java.util | Low ([3.7](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21085&vector=AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L&version=3.1&source=Oracle))   |  X    | X      |       |     |   |
+| [CVE-2024-21011](https://nvd.nist.gov/vuln/detail/CVE-2024-21011) | hotspot/runtime     | Low ([3.7](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21011&vector=AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L&version=3.1&source=Oracle))   |  X    | X      |  X    |   X | X |
+| [CVE-2024-21068](https://nvd.nist.gov/vuln/detail/CVE-2024-21068) | hotspot/compiler    | Low ([3.7](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21068&vector=AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N&version=3.1&source=Oracle))   |  X    | X      |  X    |   X | X |
+| [CVE-2024-21012](https://nvd.nist.gov/vuln/detail/CVE-2024-21012) | core-libs/java.net  | Low ([3.7](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2024-21012&vector=AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N&version=3.1&source=Oracle))   |       | X      |  X    |   X | X |
 
 Users should follow the [Adoptium policy for reporting vulnerability concerns](https://github.com/adoptium/adoptium/security/policy#security-policies-and-procedures) with this release.
 
