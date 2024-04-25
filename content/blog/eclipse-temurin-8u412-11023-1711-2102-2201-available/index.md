@@ -55,11 +55,11 @@ For Linux/s390x there was an extra patch that we needed on top of 22.0.1+8 to pa
 
 Great news for AIX users! After a bit of a gap (11.0.19+7 from April 2023, and 17.0.8.1 from August 2023) the current release includes versions for AIX. The [issue with Harfbuzz](https://bugs.openjdk.org/browse/JDK-8313643) has now been resolved.
 
-Note that JDK22 is not yet available for AIX. This is awaiting a compiler update in our infrastructure so we can build on OpenXL 17 and is being tracked under [Infrastructure issue 3208](https://github.com/adoptium/infrastructure/issues/3208)
+Note that JDK22 is not yet available for AIX. This is awaiting a compiler update in our infrastructure so we can build on OpenXL 17 and is being tracked under [Infrastructure issue 3208](https://github.com/adoptium/infrastructure/issues/3208).
 
 ### CA Certifcates updated
 
-This release contains SSL CA certificates changes from March 13th which were updated under [this PR](https://github.com/adoptium/temurin-build/pull/3697#issuecomment-1994007189)
+This release contains SSL CA certificates changes from March 13th which were updated under [this PR](https://github.com/adoptium/temurin-build/pull/3697#issuecomment-1994007189).
 
 Summary of changes:
 
@@ -78,4 +78,4 @@ We have added a new `components` section to the SBOM which lists more details on
 
 ### dnf/apt installer support for Fedora 40, Ubuntu 24.04 (Noble Numbat) and Debian 13 (Trixie)
 
-We have added support for these three distributions to our apt/yum repositories so they can be installed as per [our instructions](https://adoptium.net/en-GB/installation/linux/) without any adjustments
+We have added support for these three distributions to our apt/yum repositories so they can be installed as per [our instructions](https://adoptium.net/en-GB/installation/linux/) without any adjustments.
