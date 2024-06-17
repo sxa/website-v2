@@ -1,7 +1,7 @@
 ---
 title: External audit of Temurin build and distribution processes
 date: "2024-06-17T17:00:00+00:00"
-author: sxa
+author: pmc
 description:
 tags:
   - temurin
