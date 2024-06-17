@@ -22,7 +22,8 @@ The work done as part of this audit is consistent with other
 the Adoptium team are already doing with Temurin, such as the work to
 attain
 [SLSA build level 3 compliance](https://adoptium.net/en-GB/blog/2024/01/slsabuild3-temurin/)
-as well as other work to harden the security of parts of the project, so it
+as well as other work to
+[harden the security](https://adoptium.net/docs/secure-software/) of parts of the project, so it
 was a natural next step to have an external team look at our build and
 distribution processes to identify areas for improvement.
 
