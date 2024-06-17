@@ -17,7 +17,8 @@ firm [Trail of Bits](https://www.trailofbits.com/)
 
 ## Motivation
 
-The work done as part of this auditis consistent with other software supply-chain security work which
+The work done as part of this audit is consistent with other
+[software supply-chain security work](https://adoptium.net/docs/slsa/) which
 the Adoptium team are already doing with Temurin, such as the work to
 attain
 [SLSA build level 3 compliance](https://adoptium.net/en-GB/blog/2024/01/slsabuild3-temurin/)
