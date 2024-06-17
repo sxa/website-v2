@@ -26,7 +26,7 @@ as well as other work to harden the security of parts of the project, so it
 was a natural next step to have an external team look at our build and
 distribution processes to identify areas for improvement.
 
-## semgrep static analysis
+## Semgrep static analysis
 
 As part of this collaboration with Trail of Bits we have also implemented
 the open-source static analysis tool
