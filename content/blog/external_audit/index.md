@@ -10,10 +10,10 @@ tags:
 ## Introduction
 
 Last year, the Eclipse Foundation engaged the
-[Open Source Technology Improvement Fund](https://ostif.org/) in order to
+[Open Source Technology Improvement Fund](https://ostif.org/) to
 perform an independent audit of the build and distribution processes for
 Eclipse Temurin. This was done by the cybersecurity research and consulting
-firm [Trail of Bits](https://www.trailofbits.com/)
+firm [Trail of Bits](https://www.trailofbits.com/).
 
 ## Motivation
 
