@@ -47,4 +47,3 @@ This has been a very productive collaboration for the Adoptium team, and an
 exercise such as this could be very useful for other projects out there.
 A list of others that Trail of Bits have been involved with can be seen on
 [their publication page](https://github.com/trailofbits/publications).
-
