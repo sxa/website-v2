@@ -45,7 +45,11 @@ is now available, and a document with our
 
 ## Conclusion
 
-This has been a very productive collaboration for the Adoptium team, and an
-exercise such as this could be very useful for other projects out there.
+This has been a very productive collaboration for the Adoptium team. Thanks go to the OpenSSF’s
+Alpha-Omega project that provided funding to help Adoptium and other Eclipse Foundation projects
+improve their security, the Foundation itself for providing this opportunity to Adoptium, and the
+Adoptium project members that worked on achieving the resolutions.
+
+An exercise such as this could be very useful for other projects out there.
 A list of others that Trail of Bits have been involved with can be seen on
 [their publication page](https://github.com/trailofbits/publications).
