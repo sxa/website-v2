@@ -31,7 +31,7 @@ distribution processes to identify areas for improvement.
 
 As part of this collaboration with Trail of Bits we have also implemented
 the open-source static analysis tool
-[semgrep](https://github.com/adoptium/infrastructure/issues/3371#issuecomment-1976959833)
+[Semgrep](https://github.com/adoptium/infrastructure/issues/3371#issuecomment-1976959833)
 in our repositories as an additional automated check on each PR to ensure
 that the types of findings from the audit are identified before being merged
 into our codebase if they occur in the future.
